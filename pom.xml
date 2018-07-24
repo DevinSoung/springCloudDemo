@@ -26,6 +26,11 @@
 
     </properties>
 
+    <modules>
+        <module>center/eurekaserver</module>
+        <module>client/eurekaClient</module>
+    </modules>
+
     <dependencyManagement>
         <dependencies>
             <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies -->
